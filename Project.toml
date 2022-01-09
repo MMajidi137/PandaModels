@@ -1,7 +1,7 @@
 name = "PandaModels"
 uuid = "2dbab86a-7cbf-476f-9afe-75ffd3079e7c"
 authors = ["e2nIEE"]
-version = "0.2.0"
+version = "0.3.1"
 
 [deps]
 Cbc = "9961bab8-2fa3-5c5a-9d89-47fab24efd76"
@@ -15,13 +15,13 @@ PowerModels = "c36e90e8-916a-50a6-bd94-075b64ef4655"
 
 [compat]
 Cbc = "0.8, 0.9"
-InfrastructureModels = "0.6"
+InfrastructureModels = "0.6, 0.7"
 Ipopt = "0.6, 0.7, 0.8"
 JSON = "0.21"
-JuMP = "0.21"
-Juniper = "0.7"
+JuMP = "0.21, 0.22"
+Juniper = "0.7, 0.8"
 Memento = "1"
-PowerModels = "0.18"
+PowerModels = "0.18, 0.19"
 julia = "1.1"
 
 [extras]
